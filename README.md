@@ -1,20 +1,18 @@
 # docker-php7-fpm-alpine
-Alpine based PHP FPM with CakePHP and Phalcon readiness
+Alpine 3.7 based Docker image with PHP 7.2 FPM
 
-# Softwares & Versions
-- Alpine 3.4.6
-- PHP 5.6.x
-- Phalcon 3.2.1
-- Git 2.8.6
-- Composer 1.5.2
-- XDebug 2.5.5
+# Software & Versions
+- Alpine 3.7
+- PHP 7.2
 
 # Extra PHP modules installed
-- mysqli
-- pdo_mysql
 - redis
 - intl
-- phalcon
+- mysqli
+- pdo
+- pdo_mysql
+- mbstring
+- tokenizer
 
 # Building
 1. `./bin/dockerlint`

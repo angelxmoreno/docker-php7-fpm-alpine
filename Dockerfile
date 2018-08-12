@@ -1,5 +1,5 @@
 # Use Alpine Linux
-FROM php:7.2-fpm-alpine
+FROM php:7.2-fpm-alpine3.7
 
 MAINTAINER Angel S. Moreno <angelxmoreno@gmail.com>
 
