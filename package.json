@@ -1,0 +1,27 @@
+{
+  "name": "docker-php7-fpm-alpine",
+  "version": "0.0.1",
+  "description": "Alpine based Docker image with PHP 7.2 FPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:angelxmoreno/docker-php7-fpm-alpine.git"
+  },
+  "keywords": [
+    "Alpine",
+    "PHP",
+    "FPM"
+  ],
+  "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelxmoreno/docker-php7-fpm-alpine/issues"
+  },
+  "homepage": "https://github.com/angelxmoreno/docker-php7-fpm-alpine#readme",
+  "dependencies": {
+    "dockerfilelint": "^1.2.0"
+  }
+}
