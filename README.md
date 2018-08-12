@@ -1,4 +1,4 @@
-# php-fpm-alpine
+# docker-php7-fpm-alpine
 Alpine based PHP FPM with CakePHP and Phalcon readiness
 
 # Softwares & Versions

@@ -16,7 +16,7 @@ fi
 
 if [[ ${MODE} == "prod" ]]
 then
-    CMD="docker build --no-cache --compress --tag=angelxmoreno/${NAME}:${TAG} ."
+    CMD="docker build --no-cache --compress --squash --tag=angelxmoreno/${NAME}:${TAG} ."
 else
     CMD="docker build --tag=angelxmoreno/${NAME}:${TAG} .";
 fi
