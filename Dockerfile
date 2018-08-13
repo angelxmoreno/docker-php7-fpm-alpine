@@ -6,7 +6,7 @@ MAINTAINER Angel S. Moreno <angelxmoreno@gmail.com>
 RUN docker-php-source extract
 
 RUN apk add --no-cache --virtual .buildPacks autoconf g++ make \
- && apk add --no-cache icu-dev
+ && apk add --no-cache icu-dev \
  && pecl install redis \
  && docker-php-ext-enable redis \
  && docker-php-ext-install intl \
